@@ -1,0 +1,83 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "FashionAI Dummy Generator"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1
+          },
+          "indices": 0,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [1.0, 0.0, 0.0, 1.0],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.8
+      }
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "data:application/octet-stream;base64,AAABAAIAAwACAAEAAgADAAQABQAEAAQABQAGAAYABQAHAAcABQAIABUACAAVAAwACwANAAkACwAJAAoADAAKAAsADgANAA0ADwAQABAAEQASABEAEwAQAAsADwAQAA8ADgAEAAcAAgAHAAIAAQADAAkAAgAJAAoABQALAAYACwAGAAg=",
+      "byteLength": 72
+    },
+    {
+      "uri": "data:application/octet-stream;base64,AAAAAAAAgD8AAAAAAACAPwAAAAAAAAAAAACAPwAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAgD8AAAAAAACAPwAAgD8AAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AACAPwAAAAAAAAAAAACAPwAAAAAAAIA/AACAPwAAgD8AAAAAAAAAAAAAgD8AAAAAAACAPwAAgD8=",
+      "byteLength": 144
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 72,
+      "target": 34963
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 144,
+      "target": 34962
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR",
+      "max": [7],
+      "min": [0]
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 12,
+      "type": "VEC3",
+      "max": [1.0, 1.0, 1.0],
+      "min": [0.0, 0.0, 0.0]
+    }
+  ]
+}
