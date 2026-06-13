@@ -25,5 +25,5 @@ COPY . .
 # Download NLTK data needed for Sumy tokenizer
 RUN python -c "import nltk; nltk.download('punkt_tab', download_dir='/usr/share/nltk_data'); nltk.download('stopwords', download_dir='/usr/share/nltk_data')"
 
-# Railway dynamically assigns $PORT
+# Render dynamically assigns $PORT
 CMD uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8000}
